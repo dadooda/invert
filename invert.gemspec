@@ -21,6 +21,7 @@ Gem::Specification.new do |s|
      "README.md",
      "VERSION.yml",
      "init.rb",
+     "invert.gemspec",
      "lib/invert.rb"
   ]
   s.homepage = %q{http://github.com/dadooda/invert}
