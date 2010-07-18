@@ -1,16 +1,16 @@
 require "rake/rdoctask"
 
-GEM_NAME = "smart_tuple"
+GEM_NAME = "invert"
 
 begin
   require "jeweler"
   Jeweler::Tasks.new do |gem|
     gem.name = GEM_NAME
-    gem.summary = "A Simple Yet Smart SQL Conditions Builder"
-    gem.description = "A Simple Yet Smart SQL Conditions Builder"
+    gem.summary = "Inverse Comparison Wrapper"
+    gem.description = gem.summary
     gem.email = "alex.r@askit.org"
-    gem.homepage = "http://github.com/dadooda/smart_tuple"
-    gem.authors = ["Alex Fortuna"]
+    gem.homepage = "http://github.com/dadooda/invert"
+    gem.authors = ["Glenn McDonald", "Alex Fortuna"]
     gem.files = FileList[
       "[A-Z]*.*",
       "*.gemspec",

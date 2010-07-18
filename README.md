@@ -16,7 +16,8 @@ This gem is based on post by **glenn mcdonald**:
 Setup
 -----
 
-    gem install invert
+    $ gem sources --add http://rubygems.org
+    $ gem install invert
 
 
 Examples
